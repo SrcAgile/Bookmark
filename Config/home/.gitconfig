@@ -1,0 +1,112 @@
+[user]
+  name = Fangrui Song
+  email = i@maskray.me
+[advice]
+  statusHints = false
+[alias]
+  a   = add
+  b   = branch -v
+  m   = merge
+  mt  = mergetool
+  nc  = checkout -b
+  pl  = pull
+  plr = pull --rebase
+  pu  = push
+  untrack = rm -r --cached
+  dupes = !git ls-tree -r HEAD | cut -c 13- | sort | uniq -D -w 40
+
+  # commit
+  c = commit
+  ca = commit -a
+  co = checkout
+  cv = commit -v
+  cav = commit -av
+
+  # fetch
+  fetchall = fetch -v --all
+
+  # diff
+  d   = diff
+  dc  = diff --cached
+  wd  = diff --word-diff=plain
+  last = diff HEAD^
+
+  # grep
+  gr = grep -Ii
+
+  # log
+  l = log
+  lp = log -p
+  ls = log --pretty=format:\"%h %cr %cn %Cgreen%s%Creset\"
+  lc = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(cyan)<%an>%Creset' --abbrev-commit --date=relative
+  lg = log --graph
+
+  # rebase
+  rb = rebase
+  rc = rebase --continue
+  rs = rebase --skip
+
+  # remote
+  r = remote
+
+  # reset
+  unstage = reset HEAD
+
+  # stash
+  ss = stash
+  sl = stash list
+  sa = stash apply
+
+  # status
+  s = status -s
+
+  # tag
+  t = tag
+
+  # misc
+  save-untracked = !git ls-files --others --exclude-standard -z | cpio -pmd0
+  ignored = !git ls-files -v | grep '^[[:lower:]]'
+  conflict = !git ls-files -u | awk '{print $4}' | sort -u
+[branch]
+  autosetuprebase = always
+[color]
+  ui = true
+  diff = auto
+  status = auto
+  grep = auto
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  old = red bold
+  new = green bold
+  frag = magenta bold
+[diff]
+  mnemonicprefix = true
+  tool = vimdiff
+  algorithm = patience
+[diff "lisp"]
+  xfuncname="^(\\((def|test).*)$"
+[diff "python"]
+  xfuncname="^\\s*(class.*\\(.*\\)|def.*)(\\(|:)"
+[github]
+  user = MaskRay
+[merge]
+  tool = vimdiff
+#[mergetool "vimdiffnice"]
+#  cmd = vimdiff -c \"wincmd J\" -c \"/<<<<<<< \" $MERGED $LOCAL $BASE $REMOTE
+[push]
+  default = simple
+[url "git://github.com/"]
+  insteadOf = gh:
+[core]
+	quotePath = false
+[http]
+        #proxy = http://192.168.8.2:3128
+        #proxy = http://192.168.7.85:3128
+[https]
+        #proxy = http://192.168.8.2:3128
+        #proxy = http://192.168.7.85:3128
+[pager]

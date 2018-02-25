@@ -1,0 +1,159 @@
+[options]
+fullscreen = false
+resize_grip = true
+scroll_on_output = false
+scroll_on_keystroke = true
+audible_bell = false
+visible_bell = true
+mouse_autohide = true
+
+allow_bold = true
+dynamic_title = true
+urgent_on_bell = true
+clickable_url = true
+#font = Droid Sans Mono for Powerline 10
+#font = Source Code Pro for Powerline 14
+#font = DejaVu Sans Mono 18
+font = Monospace 22
+search_wrap = true
+#icon_name = terminal
+#mouse_autohide = false
+#scroll_on_output = false
+#scroll_on_keystroke = true
+# Length of the scrollback buffer, 0 disabled the scrollback buffer
+# and setting it to a negative value means "infinite scrollback"
+scrollback_lines = 65536
+#search_wrap = true
+#urgent_on_bell = true
+#hyperlinks = false
+
+# $BROWSER is used by default if set, with xdg-open as a fallback
+#browser = xdg-open
+
+# "system", "on" or "off"
+cursor_blink = system
+
+# "block", "underline" or "ibeam"
+#cursor_shape = block
+
+# Hide links that are no longer valid in url select overlay mode
+#filter_unmatched_urls = true
+
+# Emit escape sequences for extra modified keys
+modify_other_keys = true
+
+# set size hints for the window
+#size_hints = false
+
+# "off", "left" or "right"
+#scrollbar = off
+
+[colors]
+# If both of these are unset, cursor falls back to the foreground color,
+# and cursor_foreground falls back to the background color.
+#cursor = #dcdccc
+#cursor_foreground = #dcdccc
+
+#foreground = #dcdccc
+#foreground_bold = #ffffff
+#background = #3f3f3f
+
+
+# Solarized-dark
+[colors]
+#foreground = #839496
+#foreground_bold = #fdf6e3
+##foreground_dim = #888888
+#background = #002b36
+#cursor = #93a1a1
+#
+## if unset, will reverse foreground and background
+#highlight = #000000
+#
+## colors from color0 to color254 can be set
+#color0 = #073642
+#color1 = #dc322f
+#color2 = #859900
+#color3 = #b58900
+#color4 = #268bd2
+#color5 = #d33682
+#color6 = #2aa198
+#color7 = #eee8d5
+#color8 = #002b36
+#color9 = #cb4b16
+#color10 = #586e75
+#color11 = #657b83
+#color12 = #839496
+#color13 = #6c71c4
+#color14 = #93a1a1
+#color15 = #fdf6e3
+
+## Used color for urxvt
+#[colors]
+#background = #101010
+#foreground = #66FF66
+#highlight = #505050
+#cursor = #66ff66
+##black
+#color0 = #1c1c1c
+#color8 = #4d4d4d
+##red
+#color1 = #D81860
+#color9 = #F00060
+##green
+#color2 = #60FF60
+#color10 = #70FF70
+##yellow
+#color3 = #f9fd75
+#color11 = #f9fd80
+##blue
+#color4 = #4695c8
+#color12 = #5a9dc8
+##magenta
+#color5 = #a78edb
+#color13 = #b29fdb
+##cyan
+#color6 = #43afce
+#color14 = #69b8ce
+##white
+#color7 = #f3ebe2
+#color15 = #eeeeee
+
+
+# Molokai theme
+# [colors]
+background= rgb(32,32,32)
+foreground= #d0d0d0
+#foreground= #66ff66
+highlight = #505050
+cursor = #66ff66
+color0= #000000
+color1= #960050
+color2= #66aa11
+color3= #c47f2c
+color4= #30309b
+color5= #7e40a5
+color6= #3579a8
+color7= #9999aa
+color8= #666666
+color9= #ff0090
+color10= #80ff00
+color11= #ffba68
+color12= #5f5fee
+color13= #bb88dd
+color14= #4eb4fa
+color15= #c0c0c0
+
+[hints]
+#font = Monospace 12
+#foreground = #dcdccc
+#background = #3f3f3f
+#active_foreground = #e68080
+#active_background = #3f3f3f
+#padding = 2
+#border = #3f3f3f
+#border_width = 0.5
+#roundness = 2.0
+
+[terminal]
+term = xterm-termite-24bits

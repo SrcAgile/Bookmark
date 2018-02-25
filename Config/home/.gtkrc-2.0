@@ -1,0 +1,4 @@
+
+gtk-font-name="Sans 16"
+# gtk-toolbar-style = GTK_TOOLBAR_BOTH_HORIZ
+include "/usr/share/themes/Emacs/gtk-2.0-key/gtkrc"
