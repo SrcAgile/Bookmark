@@ -69,9 +69,6 @@ Have a look at my [Linux desktop config (in Chinese)](http://maskray.me/portfoli
 ## Acknowledgements
 
 - [@pyx](https://github.com/pyx) (Philip Xu)
-  My config absorbs quite a few ideas from his well-organized config.
-  He is also my abecedarian leading me to discover the mysterious FOSS world.
-  Thank you, Philip!
 - [@adam8157](https://github.com/adam8157) (Adam Lee)
 - [@roylez](https://github.com/roylez/dotfiles) (Roy Zuo)
 - [@laurentb](https://github.com/laurentb/public-dotfiles) (Laurent Bachelier)
