@@ -32,3 +32,5 @@
 
 ### remote work
 - gitKraken
+### Anaylse
+- valgrind
